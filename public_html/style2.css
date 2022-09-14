@@ -1,8 +1,8 @@
-body {
+body { /* changes color of slider*/
     margin: 0;
-    background: #33463b;
+    background: ivory;
     font-family: 'Poppins', 'Helvetica', 'sans-serif';
-    color: #ebebec;
+    color: #000000;
 }
 
 html {
@@ -17,12 +17,12 @@ html {
 
 a {
     text-decoration: none;
-    color: #ebebec;
+    color: black;
     transition: 0.3s;
 }
 
 p {
-    color: #b7b7bc;
+    color: rgb(88, 88, 88);
     font-size: 0.9em;
     font-weight: 300;
     line-height: 30px;
@@ -30,11 +30,11 @@ p {
 }
 
 b {
-    color: #fff;
+    color: black;
 }
 
 small {
-    color: #b7b7bc;
+    color: rgb(88, 88, 88);
 }
 
 ul {
@@ -52,8 +52,8 @@ h2 {
     margin: 0 auto;
 }
 
-header {
-    background: #333646;
+header { /*the background behind portrait*/
+    background: ivory;
     min-height: 700px;
     position: relative;
 }
@@ -96,17 +96,17 @@ nav a:not(.logo) {
 }
 
 nav a:hover {
-    color: #ebebec;
+    color: black;
 }
 
 nav li .active {
-    color: #ebebec;
+    color: black;
     position: relative;
 }
 
 nav .active::before {
     content: '';
-    background: rgb(0, 145, 255);
+    background: maroon;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -123,7 +123,7 @@ nav .active::before {
 
 .menu-btn {
     font-size: 1.5em;
-    color: #ebebec;
+    color: black;
     display: none;
     cursor: pointer;
 }
@@ -133,6 +133,10 @@ nav .active::before {
 nav .menu-open {
     height: 14.5em;
 }
+
+
+
+
 
 /* ---- Header Body ------ */
 .header-body {
@@ -148,7 +152,7 @@ nav .menu-open {
 
 .title::before {
     content: '';
-    background: rgb(0, 145, 255);
+    background: maroon;
     position: absolute;
     left: 0;
     bottom: -0.5em;
@@ -163,22 +167,22 @@ nav .menu-open {
 
 .social a {
     font-size: 1.3em;
-    color: #ebebec;
+    color: black;
 }
 
 .social a:hover {
-    color: rgb(0, 145, 255);
+    color: rgb(139, 0, 0);
 }
 
 .main-link { /* Positioning/Modifying "My Story" button on landing page*/
     display: inline-block;
-    color: rgb(0, 145, 255);
+    color: maroon;
     margin-top: 2.5em;
     font-size: 1.2em;
 }
 
 .main-link:hover {
-    color: #fff;
+    color: rgb(91, 65, 0);
 }
 
 .main-link span { /*shifting over right arrow logo*/
@@ -192,7 +196,7 @@ nav .menu-open {
 /* ---- About Section ----- */
 
 .about {
-    background: #252734;
+    background: rgb(208, 208, 178);
 }
 
 .stats, .stats > div {
@@ -204,15 +208,19 @@ nav .menu-open {
 .stats h1 { /*"Years of Study*/
     font-size: 4em;
     font-weight: 500;
-    color: rgb(0, 145, 255);
+    color: maroon;
     margin-right: 0.3em;
 }
+
+
+
+
 
 
 /* ----- Panels Section ----- */
 
 .showcase {
-    background: linear-gradient(0deg, #333646 0%, #333646 50%, #252734 0%, #252734 50%);
+    background: linear-gradient(0deg, ivory 0%, ivory 50%, rgb(208, 208, 178) 0%, rgb(208, 208, 178) 50%);
 }
 
 .panels {
@@ -227,7 +235,7 @@ nav .menu-open {
     align-items: flex-end;
     margin: 1em;
     padding: 9em 3em 3em 3em;
-    background: #414556;
+    background: tan;
     transition: 0.4s;
 }
 
@@ -257,7 +265,7 @@ nav .menu-open {
 
 /* ---- Portfolio Section ---- */
 .portfolio {
-    background: #333646;
+    background: #551010;
 }
 
 .portfolio .container {
