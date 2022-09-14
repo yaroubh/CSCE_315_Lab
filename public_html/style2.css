@@ -5,6 +5,7 @@ body { /* changes color of slider*/
     color: #000000;
 }
 
+/* smooth scrolling effect when jumping between positions */
 html {
     scroll-behavior: smooth;
 }
@@ -15,12 +16,14 @@ html {
     padding: 0;
 }
 
+/* font of anchors */
 a {
     text-decoration: none;
     color: black;
     transition: 0.3s;
 }
 
+/* font of paragraphs throughout */
 p {
     color: rgb(88, 88, 88);
     font-size: 0.9em;
@@ -29,6 +32,7 @@ p {
     margin: 1em 0;
 }
 
+/* color for "Website Created by Yaroub" */
 b {
     color: black;
 }
@@ -62,6 +66,7 @@ section, footer, header {
     padding: 4em 2em;
 }
 
+/* portrait */
 .main-image {
     position: absolute;
     bottom: 0;
@@ -116,6 +121,7 @@ nav .active::before {
     transform: translateX(-50%); /* moves dot under nav content left*/
 }
 
+/* custom YH logo */
 .logo img {
     width: 3.6em;
     height: 3.6em;
@@ -150,6 +156,7 @@ nav .menu-open {
     margin-bottom: 1.5em;
 }
 
+/* horizontal bar under name */
 .title::before {
     content: '';
     background: maroon;
@@ -160,6 +167,7 @@ nav .menu-open {
     height: 0.5rem;
 }
 
+/* social media logos */
 .social li {
     display: inline-block;
     margin-right: 1.5em;
@@ -193,6 +201,13 @@ nav .menu-open {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
 /* ---- About Section ----- */
 
 .about {
@@ -205,7 +220,7 @@ nav .menu-open {
     align-items: center;
 }
 
-.stats h1 { /*"Years of Study*/
+.stats h1 { /*"Years of Coding and Completed Projects*/
     font-size: 4em;
     font-weight: 500;
     color: maroon;
@@ -218,6 +233,7 @@ nav .menu-open {
 
 
 /* ----- Panels Section ----- */
+/* Software Engineer, Hardware Engineer, Future Lawyer */
 
 .showcase {
     background: linear-gradient(0deg, ivory 0%, ivory 50%, rgb(208, 208, 178) 0%, rgb(208, 208, 178) 50%);
@@ -286,6 +302,7 @@ nav .menu-open {
     margin-bottom: 0;
 }
 
+/* squares that hold name of projects and images */
 .card {
     background: rgb(157, 126, 100);
     position: relative;
@@ -314,6 +331,14 @@ nav .menu-open {
     transform: translateY(-3em);
 }
 
+
+
+
+
+
+
+/* ----- Service Section ----- */
+
 .services .container { /*.contact .container*/
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -321,15 +346,11 @@ nav .menu-open {
     grid-gap: 2em;
 }
 
-
-
-
-
-/* ----- Service Section ----- */
 .services {
     background: rgb(208, 208, 178);
 }
 
+/* where the written content is */
 .testimonial {
     display: flex;
     justify-content: space-between;
@@ -346,7 +367,7 @@ nav .menu-open {
     object-fit: cover;
 }
 
-.pagination li { /*list bar*/
+.pagination li { /*bar*/
     background: goldenrod;
     width: 4.5em;
     height: 0.5em;
@@ -358,6 +379,12 @@ nav .menu-open {
 .pagination .pag-active {
     background: maroon;
 }
+
+
+
+
+
+
 
 /* ---- Contact Section ---- */
 .contact {
@@ -376,6 +403,7 @@ footer {
     text-align: center;
 }
 
+/* custom YH logo */
 footer .logo img {
     width: 8em;
     height: 8em;
@@ -392,6 +420,9 @@ footer p {
 
 
 /* Response Design!!!! */
+/* When Window horizontally shrinks, think mobile design */
+
+/* landing portion */
 @media screen and (max-width: 1000px) {
     .about .container, .header-container {
         max-width: 35em;
@@ -416,6 +447,7 @@ footer p {
     }
 }
 
+/* nav bar menu */
 @media screen and (max-width: 900px) {
     .menu {
         background: rgb(165, 125, 24);
@@ -441,6 +473,7 @@ footer p {
 
 }
 
+/* reformatting all throughout */
 @media screen and (max-width: 500px) {
     html {
         font-size: 14px;
