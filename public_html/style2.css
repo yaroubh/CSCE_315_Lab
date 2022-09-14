@@ -321,9 +321,13 @@ nav .menu-open {
     grid-gap: 2em;
 }
 
+
+
+
+
 /* ----- Service Section ----- */
 .services {
-    background: #252734;
+    background: rgb(208, 208, 178);
 }
 
 .testimonial {
@@ -343,7 +347,7 @@ nav .menu-open {
 }
 
 .pagination li { /*list bar*/
-    background: #333646;
+    background: goldenrod;
     width: 4.5em;
     height: 0.5em;
     margin-right: 1.5em;
@@ -352,12 +356,12 @@ nav .menu-open {
 }
 
 .pagination .pag-active {
-    background: rgb(0, 145, 255);
+    background: maroon;
 }
 
 /* ---- Contact Section ---- */
 .contact {
-    background: #333646;
+    background: ivory;
     text-align: center;
 }
 
@@ -368,7 +372,7 @@ nav .menu-open {
 
 /* ---- Footer ---- */
 footer {
-    background: #252734;
+    background: rgb(208, 208, 178);
     text-align: center;
 }
 
@@ -414,7 +418,7 @@ footer p {
 
 @media screen and (max-width: 900px) {
     .menu {
-        background: #333646;
+        background: rgb(165, 125, 24);
         position: absolute;
         left: 0;
         top: 4em;
