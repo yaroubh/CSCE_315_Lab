@@ -240,7 +240,7 @@ nav .menu-open {
 }
 
 .panels > div:hover {
-    background: rgb(0, 145, 255);
+    background: rgb(116, 0, 0);
 }
 
 .panels .icon {
@@ -265,7 +265,7 @@ nav .menu-open {
 
 /* ---- Portfolio Section ---- */
 .portfolio {
-    background: #551010;
+    background: ivory;
 }
 
 .portfolio .container {
@@ -287,7 +287,7 @@ nav .menu-open {
 }
 
 .card {
-    background: #252734;
+    background: rgb(157, 126, 100);
     position: relative;
     height: 30em;
     transition: 0.3s;
