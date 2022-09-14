@@ -2,83 +2,337 @@
 <html>
 <head>
 <title>Yaroub's Home</title>
-<link rel="stylesheet" href="style.css">
+<link id="theme" rel="stylesheet" href="style.css">
+
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script src="https://kit.fontawesome.com/c9830f46c6.js" crossorigin="anonymous"></script>
 </head>
 
+<!-- <a href="/"><i class="fa-solid fa-toggle-on"></i></a> -->
+
 <body>
-  <!-- Navigation Bar section -->
-  <nav class="navbar">
+  <header id="top">
+      <div id = "intro" class="container">
+          <img src="img/My project.png" class="main-image" alt="Yaroub">
+          <nav>
+              <div>
+                  <a href="#top" class="logo">
+                      <img src="img/logo.png" alt="logo">
+                  </a>
+              </div>
+              <ul class="menu">
+                  <li>
+                      <a href="#serv" class="active">Service</a>
+                  </li>
+                  <li><a href="#port">Projects</a></li>
+                  <li> <a href="#" onclick="toggleTheme()"><i class="fa-solid fa-toggle-on"></i></a></li> <!-- THIS IS FOR TOGGLING-->
+              </ul>
+              <div class="menu-btn">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+          </nav>
 
-    <div class="navbar__container">
-      <a href="index.html" id="navbar__logo">YH</a>
+          <div class="container header-container">
+              <div class="header-body">
+                  <div>
+                      <h1 class="title">
+                          Yaroub <br />
+                          Hussein.
+                      </h1>
+                      <ul class="social">
+                          <li>
+                              <a href="https://www.facebook.com/yaroub.hussein/" target = "_blank"><i class="fa-brands fa-facebook"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://www.instagram.com/yaroub_h/" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://twitter.com/yaroubrh" target = "_blank"><i class="fa-brands fa-twitter"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://www.linkedin.com/in/yaroubhussein/" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
+                          </li>
+                          <li>
+                              <a href="https://open.spotify.com/user/yaroubhussein" target = "_blank"><i class="fa-brands fa-spotify"></i></a>
+                          </li>
+                      </ul>
+                  </div>
 
-      <div class="navbar__toggle" id="mobile-menu"> <!-- mobile-format menu bars -->
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+                  <div>
+                      <small>- Introduction</small>
+                      <h2>
+                          Computer Engineering Student
+                          at Texas A&M University.
+                      </h2>
+                      <p>
+                          An aspiring computer engineer currently devloping a skillset based on computer science and electrical engineering with the institution of Texas A&M University.
+                      </p>
+                      <a href="#about" class="main-link">
+                          <span>My Story</span>
+                          <i class="fa-regular fa-arrow-right"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
       </div>
+  </header>
 
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="portfolio.html" class="navbar__links">Portfolio (About)</a>
-        </li>
-        <li class="navbar__item">
-          <a href="qualifications.html" class="navbar__links">Qualifcations</a>
-        </li>
-        <li class="navbar__item">
-          <a href="service.html" class="navbar__links">Service</a>
-        </li>
-        <li class="navbar__item">
-          <a href="https://www.linkedin.com/in/yaroubhussein/" class="navbar__links">Socials</a>
-        </li>
-        <li class="navbar__item">
-          <a href="https://github.tamu.edu/yaroubhussein?tab=repositories" class="navbar__links">GitHub</a>
-        </li>
-        <li class="navbar__btn">
-          <a href="/" class="button">Contact Me</a>
-        </li>
+
+
+
+
+  <script src="app2.js"></script> <!-- importing js file-->
+
+
+
+
+  <!-- ABOUT AND QUALIFICATIONS SECTION -->
+  <section id = "about" class="about">
+      <div class="container about-container">
+          <div>
+              <small>- About</small>
+              <h2>
+                  Who Am I?
+              </h2>
+              <p>
+                  My name is Yaroub Hussein. I was born in a village named Tulkeram in Palestine. 
+                  No, not Palestine, Texas; Palestine in the middle east. However, I was not raised there.
+                  At the age of one, my family evacuated Palestine due to a severe conditions caused by the
+                  tensions of the Palestine-Israel conflict. Extended family already resided in Texas prior so 
+                  that is exactly <br> where we went! From the age of 1 all the way to now, I was raised and live in a 
+                  small town <br> in East Texas named White Oak, Texas. Completed surrounded by pine trees was a different
+                  atmosphere from where I was born, but being so young when I came to the United States, country-side 
+                  was all I knew. <br> <br>
+                  Fast forward from kindergarten through high-school, I graduated with a passion in tech. That same
+                  passion is what has lead to me do study what I am studying concurrently: computer <br> engineering. My passions
+                  did not just stop at technology though. I am equally passionate <br> about physical health in which I fulfill through 
+                  going to the gym and a bunch of different sports. <br> I also love music of all kinds; from French Jazz to Hip-Hop to 
+                  Texas Country. <br> <br>
+                  One thing to know about me above all else is that I love learning. It does not matter what. I believe education
+                  and the will to constantly learn promotes liberation both internally and externally. 
+                  
+              </p>
+              <a href="./Yaroub's Resume for SDE (final).pdf" class="main-link" target="_blank">
+                  <span>My Resume</span>
+                  <i class="fa-solid fa-file"></i>
+              </a>
+          </div>
+          <div>
+              <h2>
+                  Qualifications
+              </h2>
+              <p>
+                  My skills are primarily focused around embedded systems engineering. I am proficient in C++ and Python, as well as 
+                  ARM assembly language. I am also very skilled at Mathematics with a speciality in signal processing with 
+                  Fourier Analysis. I am currently developing a skillset in the realm of cybersecurity. No matter the assignment, I am
+                  dedicated towards teaching myself the neccessary skills to not only get the job done, but get it done well. My artistic side
+                  shows itself either through the formatting of my code or through physical appearance like designing a website. I have practiced
+                  my skillset around the world at different institutions. I am always seeking new opportunities for collaborating on projects to
+                  showcase my passion of computer engineering.
+              </p>
+              <div class="stats">
+                  <div>
+                      <h1>3</h1>
+                      <span>Years of Coding</span>
+                  </div>
+                  <div>
+                      <h1>3</h1>
+                      <span>Completed Projects</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- EXTRAS SECTION -->
+  <section class="showcase">
+      <div class="container">
+          <div class="panels">
+              <div>
+                  <div class="icon">
+                      <i class="fa-solid fa-terminal"></i>
+                  </div>
+                  <div>
+                      <h2>Software Engineer.</h2>
+                      <a href="#port">2 Projects</a>
+                  </div>
+              </div>
+              <div>
+                  <div class="icon">
+                      <i class="fa-solid fa-microchip"></i>
+                  </div>
+                  <div>
+                      <h2>Hardware Engineer.</h2>
+                      <a href="#port">1 Project</a>
+                  </div>
+              </div>
+              <div>
+                  <div class="icon">
+                      <i class="fa-solid fa-gavel"></i>
+                  </div>
+                  <div>
+                      <h2>Future Lawyer.</h2>
+                      <a href="https://law.tamu.edu">1 Law School</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- PROJECTS SECTION -->
+  <section id = "port" class="portfolio">
+      <div class="container">
+          <div class="col">
+              <div>
+                  <small>- Portfolio</small>
+                  <h2>
+                      All My Technical Projects.
+                  </h2>
+                  <p>
+                      During my time at Texas A&M University I have completed 3 projects. <br><br>
+
+                      The single-cycle CPU project was completed using a combination of ARM assembly
+                      language, Verilog, and C language on Raspberry Pi 4 hardware. I developed a 32-bit single-cycle ARM
+                      processor. Each indivudal component (ALU, Sign Extender, Adders, Mux, etc.) was devleoped from scratch
+                      and then combined together to form the working CPU. <br><br>
+
+                      The client-server project was completed using C++. This project was a program that connected to a given server
+                      utilizing IPC mechanisms (Pipe, FIFO, MQ, Shared Memory). The program can transfer data, file messages, and create new channels.
+                      The server hosted electrocardiogram data points for patients. Client has access to retrieve the datapoints.<br><br>
+
+                      The machine learning project was completed using Python. The project was an image classification program
+                      that utilized machine learning to classify the type of fruit and whether it is rotten based on an input image of
+                      fruit. Three algorithms were used: CNN, SVM, and a combination of the two.
+
+
+                  </p>
+                  <a href="https://github.tamu.edu/yaroubhussein?tab=repositories" class="main-link">
+                      <span>My GitHub <i class="fa-brands fa-github"></i></span>
+                  </a>
+              </div>
+              <a href="#port" class="card-link">
+                  <div class="card">
+                      <div>
+                          <h2>Image Classification</h2>
+                          <span>Python and Machine Learning</span>
+                      </div>
+                      <img src="img/machine-learning.jpeg" alt="machine learning">
+                  </div>
+              </a>
+          </div>
+          <div class="col">
+              <a href="#port" class="card-link">
+                  <div class="card">
+                      <div>
+                          <h2>Single-Cycle CPU.</h2>
+                          <span>Assembly and Hardware</span>
+                      </div>
+                      <img src="img/cpu.jpeg" alt="cpu">
+                  </div>
+              </a>
+              <a href="#port" class="card-link">
+                  <div class="card last-card">
+                      <div>
+                          <h2>Client-Server.</h2>
+                          <span>C++</span>
+                      </div>
+                      <img src="img/client_server.png" alt="">
+                  </div>
+              </a>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- SERVICE SECTION -->
+  <section id = "serv" class="services">
+      <div class="container">
+          <img src="img/shack.png" class="user-img" alt="shack-a-thon">
+          <div class="testimonial">
+              <!-- could put quote logo here? -->
+              <h2 class="user-text">
+                  Service Project for Habitat for Humanity.
+              </h2>
+              <p>
+              Aggie Habitat for Humanity is the Texas A&M Campus Chapter of Habitat for Humanity International and work closely with Bryan/College Station. Their mission is focusing on building homes, fundraising to sponsor a family;s home, advocating for affordable housing, and educating the Texas A&M campus and community about Habitat for Humanity’s mission.
+              Every year they put on two major fundraising events; one of which is called Shack-a-Thon. <br><br>
+
+              Shack-a-thon is an event where Aggie Habitat for Humanity auctions off spaces around Rudder Fountain to a bunch of different student organizations to build shacks! Students are allowed to tap in their creativity and showcase it while abiding by campus rules and the outlined conditions to ensure utmost safety for the students and those that are passing. This event in particular helps raise poverty housing awareness among the community of Texas A&M.
+              <br><br>
+              During my sophomore year I was a counselor in the freshman leadership organization called Freshmen Reaching Excellence in Engineering (F.R.E.E.). F.R.E.E. wanted to take part in this fundraising event to provide service for those in need of housing. The design of choice was Shaquille O'Neal purely because of the play-on words of Shaq and Shack. My committee and I, with the help of the rest of the organization, completed this project in a few weeks and put it on display in front of Kyle Field. The shack had interactive elements to help boost awareness such as a functional basketball hoop on the front, ping-pong table on the side, and corn-hole boards. Local news channels came by to televise the shack which in turn also boosted awareness for Aggie Habitat for Humanity’s mission.
+              <br><br>
+              I seek to do more for the community such as participating in fundraising events like Shack-a-Thon. It is not only a great opportunity to do good for the community, but also an opportunity to learn a lot while doing so.
+
+              </p>
+              <div>
+                  <h3 class="user-name">Shack-A-Thon</h3>
+                  <small class="user-title">Spring 2021</small>
+              </div>
+              <ul class="pagination">
+                  <li class="pag-active"></li>
+              </ul>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  <section class="contact">
+      <div class="container">
+          <div>
+              <h2>Got Ideas? <br> Let's connect.</h2>
+              <a href="mailto:yaroubhussein@tamu.edu?subject=Mail from your Website" class="main-link">
+                  <span></span>
+                  <i class="fa-solid fa-envelope"></i>
+              </a>
+          </div>
+      </div>
+  </section>
+
+  
+  
+  <!-- FOOTER SECTION -->
+  <footer>
+      <a href="#top" class="logo">
+          <img src="img/logo.png" alt="logo">
+      </a>
+      <p>
+          <b> Website Created by Yaroub :)</b>
+      </p>
+      <ul class="social">
+          <li>
+              <a href="https://www.facebook.com/yaroub.hussein/" class="active" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/yaroub_h/" class="active" target="_blank">
+                  <i class="fa-brands fa-instagram"></i></a>
+              </a>
+          </li>
+          <li>
+              <a href="https://twitter.com/yaroubrh" class="active" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/yaroubhussein/" class="active" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+              </a>
+          </li>
+          <li>
+              <a href="https://open.spotify.com/user/yaroubhussein" class="active" target="_blank">
+                  <i class="fa-brands fa-spotify"></i></a>
+              </a>
+          </li>
       </ul>
-
-    </div>
-
-  </nav>
-
-  <!-- Intro Section -->
-  <div class="main">
-    <div class="main__container">
-      <div class="main__content">
-        <h2>Hey, my name is</h2>
-        <h1>Yaroub.</h1>
-        <p>An aspiring computer engineer currently devloping the skillset of computer science and electrical engineering
-          with the institution of Texas A&M University.
-        </p>
-        <!-- <button class="main__btn"> -->
-          <!-- <a href="/">SCROLL FOR MORE</a> -->
-        <!-- </button> -->
-      </div>
-      <div class="main__img--container">
-        <img src="img/portrait.JPG" alt="self_portrait" id="main__img" width="470" height="700">
-      </div>
-    </div>
-  </div>
-
-  <script src="app.js"></script>
-
-<!-- <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="left"><font color="#000000"; size = "5">Hey, it's me</font></td>
-  </tr>
-  <tr>
-    <td align="left"><h1><font color="#000000"; size = "10">Yaroub.</font></h1></td>
-  </tr>
-  <tr>
-    <td align="center"><font color="#000000"; ><br><br>This is Yaroub's sick page. <a href = "https://www.linkedin.com/in/yaroubhussein/"> This is the best LinkedIn.</a> </font></td>
-  </tr>
-</table> -->
+  </footer>
 
 </body>
 </html>
