@@ -1,2 +1,2 @@
-# CSCE_315_Lab
+# Personal Website
 for CSCE 315
